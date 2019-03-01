@@ -1,0 +1,61 @@
+#brandLink{
+    background-color:#4aaaa5;
+    color:white;
+    padding:1rem 1rem;
+}
+
+#contentGrid {
+    background-color:red;
+    margin-top:5rem;
+}
+
+#aboutMeHeader{
+    background-color:teal;
+    margin:auto;
+}
+
+#floatContainer{
+    background-color:brown;
+    margin:auto;
+}
+
+#aboutMeImage{
+    width: 18%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin:1rem;
+}
+
+#footerBorder{
+    border-top:0.6rem solid #4aaaa5;
+}
+
+@media screen and (max-width: 980){
+#aboutMeImage{
+    width: 20%;
+    height: auto;
+    border: 1px solid #ddd;
+    display: inline;
+
+}
+}
+
+@media screen and (max-width: 768){
+    #aboutMeImage{
+        width: 25%;
+        height: auto;
+        border: 1px solid #ddd;
+        display: inline;
+    
+    }
+}
+
+@media screen and (max-width: 680){
+    #aboutMeImage{
+        width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        display: inline;
+    
+    }
+}
