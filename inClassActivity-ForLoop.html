@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var listOfAnimals = ["chickens", "pigs", "horses", "ostriches"]
+
+        listOfAnimals.forEach(function(element){
+            if(element[0]== "o"){
+                alert("For Word: " + element + "- Starts with 'c' or 'o'! Specifically an 'o'");
+            }
+            else if(element[0]== "c"){
+                alert("For Word: " + element + "-Starts with 'c' or 'o'! Specifically an 'c'");
+            }
+            else{
+                alert("For Word: " + element + "-Does not start with 'c' or 'o'");
+            }
+        });
+
+      
+});
+
+    </script>
+</body>
+</html>
