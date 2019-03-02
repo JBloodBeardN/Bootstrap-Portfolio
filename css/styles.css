@@ -1,22 +1,38 @@
+/* Global Header Styles */
+html{
+    background-color:linen;
+}
 #brandLink{
-    background-color:#4aaaa5;
+    background-color:#45bad3;
     color:white;
     padding:1rem 1rem;
 }
 
+.navbar{
+    margin-top:0!important;
+    margin-bottom:0!important;
+    padding-top:0!important;
+    padding-bottom: 0!important;;
+}
+
+/* Index.html page styles */
+
 #contentGrid {
-    background-color:red;
-    margin-top:5rem;
+    background-color:linen;
+    margin-top:7rem;
+    min-height:300vh;
 }
 
 #aboutMeHeader{
-    background-color:teal;
+    background-color:whitesmoke;
     margin:auto;
+    color:#4aaaa5;
 }
 
 #floatContainer{
-    background-color:brown;
+    background-color:whitesmoke;
     margin:auto;
+    color:darkslategrey;
 }
 
 #aboutMeImage{
@@ -25,6 +41,118 @@
     border: 1px solid #ddd;
     margin:1rem;
 }
+
+/* Portfolio.html styles */
+
+/* sets a background image to each of the portfolio items */
+#portfolioItem1{
+background-image: url('../images/technics-q-c-640-480-4.jpg'); 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover; 
+min-height:10rem; 
+background-color:darkgrey;
+}
+
+#portfolioItem2{
+    background-image: url('../images/technics-q-c-640-480-4.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height:10rem; 
+    background-color:darkgrey;
+}
+
+#portfolioItem3{
+    background-image: url('../images/technics-q-c-640-480-4.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height:10rem; 
+    background-color:darkgrey;
+    }
+
+#portfolioItem4{
+    background-image: url('../images/technics-q-c-640-480-4.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height:10rem; 
+    background-color:darkgrey;
+    }
+
+#portfolioItem5{
+    background-image: url('../images/technics-q-c-640-480-4.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height:10rem; 
+    background-color:darkgrey;
+    }
+#portfolioItem1Row1{
+    min-height:10rem
+}
+#portfolioItem1Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
+
+#portfolioItem2Row1{
+    min-height:10rem
+}
+#portfolioItem2Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
+
+#portfolioItem3Row1{
+    min-height:10rem
+}
+#portfolioItem3Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
+
+#portfolioItem4Row1{
+    min-height:10rem
+}
+#portfolioItem4Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
+
+#portfolioItem5Row1{
+    min-height:10rem
+}
+#portfolioItem5Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
+
+/* Contact.html styles */
+
+#contactSubmitButton{
+    color:white;
+    background-color: #4aaaa5;
+    margin-bottom: 1rem;
+}
+
+#contactContainer{
+    margin:auto; 
+    background-color:whitesmoke;
+}
+
+/* GlobalFooter Styles start */
 
 #footerBorder{
     border-top:0.6rem solid #4aaaa5;
