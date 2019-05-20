@@ -1,5 +1,11 @@
 /* Global Header Styles */
+body{
+    background-color: lavender;
+}
 
+.container{
+    background-color:lavender;
+}
 #brandLink{
     background-color:#45bad3;
     color:white;
