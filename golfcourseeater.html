@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- all style overrides are linked to ID's >> 
+    >>if you see an ID you know it has an override
+
+
+-->
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-row fixed-top">
+        <a id="brandLink" class="navbar-brand d-flex" href="index.html">James Neese, PSM I</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <!-- <div class=" "> -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">| Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">| Contact</a>
+                </li>
+            </ul>
+            <!-- </div> -->
+        </div>
+    </nav>
+
+    <!-- start of bootstrap grid for page contents -->
+    <div class="container" id="contentGrid">
+        <div class="row">
+            <div id="aboutMeHeader" class="col-sm-12 col-md-10 col-lg-8">
+                <h2>Golf Course Eater</h2>
+            </div>
+        </div>
+        <!-- transition of header row to major content pane -->
+        <div class="row">
+            <!-- you need to remove this borrowed ID "floatContainer" -->
+            <!-- this creates the container like I have on the index page -->
+            <div id="floatContainer" class="col-sm-12 col-md-10 col-lg-10">
+                <!-- this creates the first row of portfolio links -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                        <!-- this establishes the row for the actual portfolio items -->
+                        <div
+                            style="max-height: 30rem; min-height:30rem; background-image: url('./images/DatapetHomePage.PNG'); background-position:center; background-repeat:no-repeat; background-size:cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                        <h1>ReadMe</h1>
+                        <p>The Dat-A-Pet project was a collaborative effort with 3 other members of the coding
+                            bootcamp I attended.
+                            Dat-A-Pet was first created for 'Project 2', as a Node.js, Express Server,
+                            HandleBars.js/Bootstrap, MySQL/Sequelize stack.
+                            The project scope was found to be a loftier goal than achievable and resulted in a
+                            homepage, user creation, pet object creation, minimal user dashboard view, and json
+                            output for admin API calls.
+                        </p>
+                        <p>Dat-A-Pet was revised for 'Project 3' however much of the work had to be redone, and most
+                            all of the project had to be refactored for new project requirements.
+                            Changes to the stack to now include React javascript library instead of HandleBars.js
+                            and a switch from Bootstrap framework to Materialize(similar css library).
+                            An update to database design to support a many-to-many relationship between pet owners
+                            and pets also cascaded to refactor all API calls. The Dat-A-Pet team was able to deliver
+                            MVP functionality: [Create a User, Create Pet Objects, Share Pet Object with another
+                            user].
+                            Functionality can be tested using the seed account TEST@email.com, password: TEST. This
+                            user has default pets created which can be shared with your user, and vice-versa, your
+                            pets can be shared with that user. The shared user only has view permissions for pets
+                            that did not originate with them.
+                            HINT: Logout button and Share my Pet functions are within the side nav bar of the
+                            dashboard page, accessible through the header button 'Nav'
+                        </p>
+                        <p><a href="https://datapet2.herokuapp.com/">Dat-A-Pet Deployed Site</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- container div -->
+    </div>
+
+
+    <!-- using bootstrap row for the footer (maybe make it sticky- meh?) -->
+    <nav id="footerBorder" class="navbar fixed-bottom navbar-dark bg-dark">
+        <p class="navbar-brand m-auto">Copyright &copy; 2019 James Neese</a>
+    </nav>
+</body>
+
+</html>

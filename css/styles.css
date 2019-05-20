@@ -41,9 +41,13 @@
 
 /* Portfolio.html styles */
 
+.portfolioMargin{
+    margin-bottom:1rem;
+}
+
 /* sets a background image to each of the portfolio items */
 #portfolioItem1{
-background-image: url('../images/PokemonPortfolio.PNG'); 
+background-image: url('../images/DatapetHomePage.PNG'); 
 background-position: center; 
 background-repeat: no-repeat; 
 background-size: cover; 
@@ -90,7 +94,7 @@ background-color:darkgrey;
     min-height:10rem
 }
 #portfolioItem1Col1{
-    padding:1rem; 
+    padding:.1rem; 
     width:100%; 
     background-color:#4aaaa5; 
     color:white"

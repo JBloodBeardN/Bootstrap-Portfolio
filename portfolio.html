@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -44,7 +44,7 @@
 <!-- start of bootstrap grid for page contents -->
 <div class="container" id="contentGrid">
     <div class="row" >
-        <div id="aboutMeHeader" class="col-sm-12 col-md-10 col-lg-8">
+        <div id="aboutMeHeader" class="col-sm-12 col-md-10 col-lg-10">
             <h2>Portfolio</h2>
         </div>
     </div>
@@ -52,67 +52,70 @@
     <div class="row" >
         <!-- you need to remove this borrowed ID "floatContainer" -->
         <!-- this creates the container like I have on the index page -->
-        <div id="floatContainer" class="col-sm-12 col-md-10 col-lg-8">
+        <div id="floatContainer" class="col-sm-12 col-md-10 col-lg-10">
             <!-- this creates the first row of portfolio links -->
             <div class="row" >
-                <div class="col-sm-12 col-md-8 col-lg-6">
+                <div class="col-sm-12 col-md-10 col-lg-10">
                     <!-- this establishes the row for the actual portfolio items -->
                     <div class="row">
                     
                         <!-- This is the portfolio item itself -->
-                        <div class="col-sm-12 col-md-5 col-lg-5 offset-md-1" id="portfolioItem1">
-                            <div class="row align-items-end" id="portfolioItem1Row1">
-                                <div class="col text-center" id="portfolioItem1Col1">Great Monster Balls
-                                </div>
-                            </div> 
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem1">
+                            <a href="./datapet.html">
+                                <div class="row align-items-end" id="portfolioItem1Row1">
+                                    <div class="col text-center" id="portfolioItem1Col1">Dat-A-Pet
+                                    </div>
+                                </div> 
+                            </a>
                         </div>
-                        <div class="col-sm-12 col-md-5 col-lg-5 offset-md-1" id="portfolioItem2">
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem2">
+                                <a href="./notpokemon.html">
                             <div class="row align-items-end" id="portfolioItem2Row1">
-                                <div class="col text-center" id="portfolioItem2Col1">Trivia Game
+                                <div class="col text-center" id="portfolioItem2Col1">Not Pokemon
                                 </div>
                             </div> 
+                        </a>
+                        </div>
+                
+                        <!-- This is the portfolio item itself -->
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem3">
+                                <a href="./abaziaba.html">
+                            <div class="row align-items-end" id="portfolioItem3Row1">
+                                <div class="col text-center" id="portfolioItem3Col1">Abaziaba
+                                </div>
+                            </div> 
+                        </a>
+                        </div>
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem4">
+                                <a href="./triviagame.html">
+                            <div class="row align-items-end" id="portfolioItem4Row1">
+                                <div class="col text-center" id="portfolioItem4Col1">Trivia Game
+                                </div>
+                            </div> 
+                        </a>
+                        </div>
+                                                    <!-- This is the portfolio item itself -->
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem5">
+                                <a href="./gliphyapi.html">
+                                <div class="row align-items-end" id="portfolioItem5Row1">
+                                    <div class="col text-center" id="portfolioItem5Col1">Giphy API
+
+                                    </div>
+                            </div> 
+                        </a>
+                        </div>
+                        <div class="col-sm-12 col-md-5 col-lg-3 offset-md-1 portfolioMargin" id="portfolioItem6">
+                                <a href="./golfcourseeater.html">
+                                <div class="row align-items-end" id="portfolioItem6Row1">
+                                    <div class="col text-center" id="portfolioItem6Col1">Golf Course Eater
+
+                                    </div>
+                            </div> 
+                        </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row" >
-                    <div class="col-sm-12 col-md-8 col-lg-6">
-                        <!-- this establishes the row for the actual portfolio items -->
-                        <div class="row">
-                        
-                            <!-- This is the portfolio item itself -->
-                            <div class="col-sm-12 col-md-5 col-lg-5 offset-md-1" id="portfolioItem3">
-                                <div class="row align-items-end" id="portfolioItem3Row1">
-                                    <div class="col text-center" id="portfolioItem3Col1">Word Guess Game
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="col-sm-12 col-md-5 col-lg-5 offset-md-1" id="portfolioItem4">
-                                <div class="row align-items-end" id="portfolioItem4Row1">
-                                    <div class="col text-center" id="portfolioItem4Col1">NoLate App
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" >
-                        <div class="col-sm-12 col-md-8 col-lg-6">
-                            <!-- this establishes the row for the actual portfolio items -->
-                            <div class="row">
-                            
-                                <!-- This is the portfolio item itself -->
-                                <div class="col-sm-12 col-md-5 col-lg-5 offset-md-1" id="portfolioItem5">
-                                        <div class="row align-items-end" id="portfolioItem5Row1">
-                                            <div class="col text-center" id="portfolioItem5Col1">Giphy
-
-                                            </div>
-                                    </div> 
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
         </div>
     </div>
 <!-- container div -->
