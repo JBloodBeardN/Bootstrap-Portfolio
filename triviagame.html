@@ -55,7 +55,7 @@
     <div class="container" id="contentGrid">
         <div class="row">
             <div id="aboutMeHeader" class="col-sm-12 col-md-10 col-lg-8">
-                <h2>Dat-A-Pet</h2>
+                <h2>Trivia Game</h2>
             </div>
         </div>
         <!-- transition of header row to major content pane -->
@@ -68,37 +68,25 @@
                     <div class="col-sm-12 col-md-10 col-lg-10">
                         <!-- this establishes the row for the actual portfolio items -->
                         <div
-                            style="max-height: 30rem; min-height:30rem; background-image: url('./images/DatapetHomePage.PNG'); background-position:center; background-repeat:no-repeat; background-size:cover">
+                            style="max-height: 30rem; min-height:30rem; background-image: url('./images/TimedTrivia.PNG'); background-position:center; background-repeat:no-repeat; background-size:cover">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-10 col-lg-10">
                         <h1>ReadMe</h1>
-                        <p>The Dat-A-Pet project was a collaborative effort with 3 other members of the coding
-                            bootcamp I attended.
-                            Dat-A-Pet was first created for 'Project 2', as a Node.js, Express Server,
-                            HandleBars.js/Bootstrap, MySQL/Sequelize stack.
-                            The project scope was found to be a loftier goal than achievable and resulted in a
-                            homepage, user creation, pet object creation, minimal user dashboard view, and json
-                            output for admin API calls.
+                        <p>Trivia Game is a UT coding bootcamp homework activity. 
+                            It utilizes timing events to all a User to race the clock and submit a Trivia Game. 
+                            The game keeps track of time allowed for each question, and the total number of questions answered correctly.
+                            I am currently using questions inspired by the GateKeeper in Monte Python's Holy Grail. 
+                            The correct 'answers' to the questions are inspired by the events that transpired in the movie.
                         </p>
-                        <p>Dat-A-Pet was revised for 'Project 3' however much of the work had to be redone, and most
-                            all of the project had to be refactored for new project requirements.
-                            Changes to the stack to now include React javascript library instead of HandleBars.js
-                            and a switch from Bootstrap framework to Materialize(similar css library).
-                            An update to database design to support a many-to-many relationship between pet owners
-                            and pets also cascaded to refactor all API calls. The Dat-A-Pet team was able to deliver
-                            MVP functionality: [Create a User, Create Pet Objects, Share Pet Object with another
-                            user].
-                            Functionality can be tested using the seed account TEST@email.com, password: TEST. This
-                            user has default pets created which can be shared with your user, and vice-versa, your
-                            pets can be shared with that user. The shared user only has view permissions for pets
-                            that did not originate with them.
-                            HINT: Logout button and Share my Pet functions are within the side nav bar of the
-                            dashboard page, accessible through the header button 'Nav'
+                        <p>The game uses form components controlled by a show/hide mechanic which is slave to timing events. 
+                            Each question answered is immediately evaluated and result of evaluation is presented to the user. 
+                            This updates javascript variables for number of questions asked and answered correctly. 
+                            At the end of the game, the user is presented a button to clear the values of the javascript variables in order to reset the game.
                         </p>
-                        <p><a href="https://datapet2.herokuapp.com/">Dat-A-Pet Deployed Site</a></p>
+                        <p><a href="https://jbloodbeardn.github.io/TriviaGame/">Trivia Game deployed on GitHubPages</a></p>
                     </div>
                 </div>
             </div>

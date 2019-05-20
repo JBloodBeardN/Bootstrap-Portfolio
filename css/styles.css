@@ -56,7 +56,7 @@ background-color:darkgrey;
 }
 
 #portfolioItem2{
-    background-image: url('../images/TriviaPortfolio.PNG'); 
+    background-image: url('../images/PokemonInGame.PNG'); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -74,7 +74,7 @@ background-color:darkgrey;
     }
 
 #portfolioItem4{
-    background-image: url('../images/business-q-c-640-480-6.jpg'); 
+    background-image: url('../images/TimedTrivia.PNG'); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -83,7 +83,15 @@ background-color:darkgrey;
     }
 
 #portfolioItem5{
-    background-image: url('../images/GiphyPortfolio.PNG'); 
+    background-image: url('../images/GiphyAPI.PNG'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height:10rem; 
+    background-color:darkgrey;
+    }
+#portfolioItem6{
+    background-image: url('../images/GiphyAPI.PNG'); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -139,7 +147,15 @@ background-color:darkgrey;
     background-color:#4aaaa5; 
     color:white"
 }
-
+#portfolioItem6Row1{
+    min-height:10rem
+}
+#portfolioItem6Col1{
+    padding:1rem; 
+    width:100%; 
+    background-color:#4aaaa5; 
+    color:white"
+}
 /* Contact.html styles */
 
 #contactSubmitButton{
